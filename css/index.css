@@ -28,6 +28,7 @@
   background-color: rgba(0,0,0,0.5);
   color: white;
   height: auto;
+  overflow: auto;
   max-height: 100%;
 }
 #entry-block #logo
@@ -188,7 +189,6 @@ text-align: justify;
   display: grid;
   grid-template-columns: 25% 25%;
 }
-
 @media(max-width:833px)
 {
 #header-img
@@ -290,10 +290,6 @@ text-align: justify;
 #details div
 {
   text-align:center;
-}
-  #form 
-{
-  overflow: auto;
 }
 }
 @media(max-width:690px)
