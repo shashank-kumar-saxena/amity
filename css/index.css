@@ -35,7 +35,6 @@
   position: relative;
   left:10%;
   width:80%;
-
 }
 #entry-block #detail
 {
@@ -291,6 +290,10 @@ text-align: justify;
 #details div
 {
   text-align:center;
+}
+  #form 
+{
+  overflow: auto;
 }
 }
 @media(max-width:690px)
